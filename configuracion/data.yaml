@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Cardboard', 'Metal', 'Paper', 'Plastic', 'glass']
+
+roboflow:
+  workspace: p3-ramirez-s-workspace
+  project: litter-detection-rt64w-w3mqz
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/p3-ramirez-s-workspace/litter-detection-rt64w-w3mqz/1
